@@ -93,7 +93,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-
+/*
 app.post("/", function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     console.log(req);
@@ -101,7 +101,7 @@ app.post("/", function (req, res, next) {
     res.json(score);
     res.sendStatus(200);
 });
-
+*/
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
